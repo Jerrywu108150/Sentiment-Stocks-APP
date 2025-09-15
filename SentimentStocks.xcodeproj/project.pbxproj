@@ -29,6 +29,58 @@
 		C4C8A3662E72568400FC29DF /* SentimentStocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentStocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C4C8A3822E72571C00FC29DF /* Exceptions for "Models" folder in "SentimentStocks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models.swift,
+			);
+			target = C4C8A34E2E72568300FC29DF /* SentimentStocks */;
+		};
+		C4C8A3852E72577300FC29DF /* Exceptions for "Services" folder in "SentimentStocks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AdviceAPI.swift,
+				NewsRepository.swift,
+				NewsService.swift,
+				RateLimiter.swift,
+				SentimentService.swift,
+				SingleFlight.swift,
+				TickerRepository.swift,
+				TickerService.swift,
+			);
+			target = C4C8A34E2E72568300FC29DF /* SentimentStocks */;
+		};
+		C4C8A3922E72587300FC29DF /* Exceptions for "ViewModels" folder in "SentimentStocks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				StockDetailViewModel.swift,
+				TickerListViewModel.swift,
+			);
+			target = C4C8A34E2E72568300FC29DF /* SentimentStocks */;
+		};
+		C4C8A39B2E7258EC00FC29DF /* Exceptions for "Views" folder in "SentimentStocks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AdviceStyles.swift,
+				HUD.swift,
+				StockDetailView.swift,
+				TickerListView.swift,
+				TickerRow.swift,
+			);
+			target = C4C8A34E2E72568300FC29DF /* SentimentStocks */;
+		};
+		C4C8A3A02E72598300FC29DF /* Exceptions for "Support" folder in "SentimentStocks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Config.swift,
+				Dependencies.swift,
+				Palette.swift,
+			);
+			target = C4C8A34E2E72568300FC29DF /* SentimentStocks */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C4C8A3512E72568300FC29DF /* SentimentStocks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -43,6 +95,46 @@
 		C4C8A3692E72568400FC29DF /* SentimentStocksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SentimentStocksUITests;
+			sourceTree = "<group>";
+		};
+		C4C8A37A2E7256B300FC29DF /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4C8A3822E72571C00FC29DF /* Exceptions for "Models" folder in "SentimentStocks" target */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4C8A37B2E7256CE00FC29DF /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4C8A3852E72577300FC29DF /* Exceptions for "Services" folder in "SentimentStocks" target */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4C8A37C2E7256D600FC29DF /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4C8A3922E72587300FC29DF /* Exceptions for "ViewModels" folder in "SentimentStocks" target */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C4C8A37D2E7256DE00FC29DF /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4C8A39B2E7258EC00FC29DF /* Exceptions for "Views" folder in "SentimentStocks" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4C8A37F2E7256FB00FC29DF /* Support */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4C8A3A02E72598300FC29DF /* Exceptions for "Support" folder in "SentimentStocks" target */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +167,7 @@
 		C4C8A3462E72568300FC29DF = {
 			isa = PBXGroup;
 			children = (
+				C4C8A3792E7256A600FC29DF /* MVVM */,
 				C4C8A3512E72568300FC29DF /* SentimentStocks */,
 				C4C8A35F2E72568400FC29DF /* SentimentStocksTests */,
 				C4C8A3692E72568400FC29DF /* SentimentStocksUITests */,
@@ -90,6 +183,18 @@
 				C4C8A3662E72568400FC29DF /* SentimentStocksUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C8A3792E7256A600FC29DF /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8A37F2E7256FB00FC29DF /* Support */,
+				C4C8A37D2E7256DE00FC29DF /* Views */,
+				C4C8A37C2E7256D600FC29DF /* ViewModels */,
+				C4C8A37B2E7256CE00FC29DF /* Services */,
+				C4C8A37A2E7256B300FC29DF /* Models */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

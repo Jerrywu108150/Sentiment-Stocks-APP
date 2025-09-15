@@ -11,7 +11,11 @@ import SwiftUI
 struct SentimentStocksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TickerListView()
         }
     }
+}
+
+#Preview {
+    TickerListView()
 }
