@@ -48,7 +48,7 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 - **Finnhub API** for stock & news data
 
 ### App Display
-![](Display.gif)
+![App Demo](./Display.gif)
 ---
 
 ## Getting Started
