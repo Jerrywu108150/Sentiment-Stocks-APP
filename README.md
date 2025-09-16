@@ -48,7 +48,7 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 - **Finnhub API** for stock & news data
 
 ### App Display
-![Simulator Screen Recording - iPhone 16 Pro - 2025-09-16 at 09 20 22](https://github.com/user-attachments/assets/cba990c6-3d1e-4680-804a-e726e22025a1)
+
 
 ---
 
