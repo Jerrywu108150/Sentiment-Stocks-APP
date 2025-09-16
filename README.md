@@ -47,8 +47,9 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 - **SentenceTransformers / NLP** for keyword extraction
 - **Finnhub API** for stock & news data
 
-### App Display
-![App Demo](./Display.gif)
+## 📱 Demo
+
+![App Demo](https://raw.githubusercontent.com/Jerrywu108150/Sentiment-Stocks-APP/main/Display.gif)
 ---
 
 ## Getting Started
