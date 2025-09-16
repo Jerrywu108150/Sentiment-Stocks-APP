@@ -48,7 +48,7 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 - **Finnhub API** for stock & news data
 
 ### App Display
-![](https://github.com/Jerrywu108150/Sentiment-Stocks-APP/blob/main/Display.gif)
+![](Display.gif)
 ---
 
 ## Getting Started
