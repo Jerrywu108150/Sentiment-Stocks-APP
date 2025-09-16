@@ -49,7 +49,7 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 
 ## 📱 Demo
 
-![App Demo](https://github.com/Jerrywu108150/Sentiment-Stocks-APP/blob/df6d202ff8682486709e043f42a35102fbe7c99b/Display.gif)
+![App Demo](./Display.gif)
 
 ## Getting Started
 
