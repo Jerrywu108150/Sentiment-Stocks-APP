@@ -49,7 +49,6 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 
 ### App Display
 ![](https://github.com/Jerrywu108150/Sentiment-Stocks-APP/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2016%20Pro%20-%202025-09-16%20at%2009.20.22.gif)
-
 ---
 
 ## Getting Started
