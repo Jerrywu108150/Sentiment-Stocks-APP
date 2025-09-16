@@ -49,7 +49,7 @@ It provides stock-specific insights by analyzing financial news, extracting keyw
 
 ## 📱 Demo
 
-![App Demo](./Display.gif)
+![App Demo](Display.gif)
 
 ## Getting Started
 
