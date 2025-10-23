@@ -16,7 +16,7 @@ from chromadb import PersistentClient
 
 load_dotenv()
 
-FINNHUB = os.getenv("FINNHUB_TOKEN", "d2v8ts9r01qq994inc40d2v8ts9r01qq994inc4g")
+FINNHUB = os.getenv("FINNHUB_TOKEN", "YOUR TOKEN")
 OLLAMA  = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 MODEL   = os.getenv("LLM_MODEL", "gemma2:2b")
 
